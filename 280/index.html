@@ -1,0 +1,140 @@
+<!--
+     Created By: Maple Johnson
+     SDEV280 Capstone
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+     <!-- Settings of the webpage -->
+     <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta http-equiv="X-UA-Compatible" content="ie=edge">
+          <title>Maple Johnson's Portfolio</title>
+          <link rel="stylesheet" href="style.css">
+     </head>
+     <body>
+          <div id="wrapper"> <!-- Main container over top the background -->
+
+               <header id="header"> <!-- Header -->
+                    <h1>SDEV 280 Capstone Project</h1>
+               </header>
+               
+               <div id="overview"> <!-- Project Overview section -->
+                    <br>
+                    <h2>Project Overview</h2>
+                    <br>
+                    <p>The project was done as collaboration between US and UAE students, our stakeholders, 
+                         by analyzing personal environmental impact in order to see what could be done to reduce anthropogenic climate change. 
+                         All of us came together to gather survey data, which we, the US portion of the team, would compile, clean up, analyze and create visualizations for. 
+                         My part of the analysis was to compare for correlation gender and carbon/ecological footprints. 
+                         Once they had the analytics, they would formulate conclusions and determine proactive steps based on the data.
+                    </p>
+               </div>
+
+               <div id="implementation"> <!-- Project Implementation section -->
+                    <br>
+                    <h2>Project Implementation</h2>
+                    <br>
+
+                    <div id="implementation_text"> <!-- Written data on how the project was implemented -->
+                         <p>First, we used a carbon footprint calculator to gather data from various respondants, roughly 10 per team member. 
+                              Next, because this was group project over the internet, we used Google sheets was used to compile, clean and re-clean the data. 
+                              We then set about breaking up the analysis, so that each member was looking into a question based on the data gathered. 
+                              For me specifically, my part in this step of the project was to look into the correlation between gender and one's carbon and ecological footprints. 
+                              In order to do this, I first uploaded the data to Tableau, 
+                              and began creating a series of histograms to compare how much the bulk of respondents concentrated their carbon footprints based on gender. 
+                              I created a differrent graph for each responding gender in order to visualize the comparison. 
+                              To include more specifics in the data visualizations, I used Google Sheets to section off a portion of the data to upload to Google Colab. 
+                              This allowed me to use Python to perform further analysis. 
+                              Specifically, I used ".describe" on the uploaded data frame, and added the resulting data, such as average and median, to my graphs. 
+                              These were compiled with the other team members work, 
+                              and sent to the UAE students to perform their conclusions and implementations for combating climate change in their environmental class. 
+                              We additionally created this website to host our work.
+                         </p>
+                    </div>
+     
+                    <div id="implement_image"> <!-- Included an image to backup written data -->
+                         <img src="./pics/EcoAnalysisVisuals.png" alt="Data Visualization Graphs">
+                    </div>
+               </div>
+
+               <div id="link_bar"> <!-- Area of the site that includes additional links -->
+                    <br>
+                    <h2>Links</h2>
+                    <br>
+                    <ul>
+                         <li><a href="https://www.footprintcalculator.org/home/en">Carbon Footprint Calculator</a></li>
+                         <li><a href="https://docs.google.com/spreadsheets/d/1IDbLFZwhRcJulOSWYcn7pyB1AIWYXm8xFG7cRXSitMs/edit?usp=sharing">Copy of Data</a></li>
+                         <li><a href="https://public.tableau.com/app/profile/maple.johnson/viz/EcologicalSurveyProject/Dashboard1">Tableau Visualization</a></li>
+                         <li><a href="https://colab.research.google.com/drive/12fvtOGwCT_rmMNNxlooSX4WAFi2Br235#scrollTo=ZH-IVrc_UAqC">Python Code</a></li>
+                         <li><a href="https://github.com/">Github for Website Code</a></li>
+                    </ul>
+               </div>
+
+               <div video_doc> <!-- 10 minute video project -->
+                    <br>
+                    <h2>Video Documentation</h2>
+                    <br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sSVdCk7EM9M?si=2uOhxYiNQEmN4ffZ" title="YouTube video player" frameborder="0" 
+                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                    </iframe>
+                    <br>
+               </div>
+
+               <div id="parent_combo"> <!-- Container for remaining sections -->
+                    <div id="obstacles"> <!-- Project Obstacles section -->
+                         <br>
+                         <h2>Project Obstacles</h2>
+                         <br>
+                         <ul>
+                              <li>Data Cleanup - The cleanup process took longer than originally anticipated due to a decision to our decision to merge two of the groups together, which meant re-cleaning the newly combined data.</li>
+                              <li>International Communication - Due to vastly different time-zones it wasn't always easy to communicate with one another, but in the end we did manage to make it work through messaging services such as Instagram and Discord. This did however mean that there was still a delay in responses, but it was a lot more manageable.</li>
+                         </ul>
+                    </div>
+
+                    <div id="improvement"> <!-- Project Improvement section -->
+                         <br>
+                         <h2>Project Improvement</h2>
+                         <br>
+                         <p>If we were to perform this project over again, the most important facet to improve it would be to have properly random data responses. 
+                              As part of our assignment, we gathered responses for the survey from those we knew, which creates a massive amount of selection bias. 
+                              For the sake of data accuracy, this project would be better performed adearing to that, and surveying strangers. 
+                              Additionally, while we had enough data to see trends, a sample size of a little over 100 people hardly reflects that of a world-wide population of billions.
+                         </p>
+                    </div>
+
+                    <div id="agile"> <!-- Agile Mindset section -->
+                         <br>
+                         <h2>Agile Mindset</h2>
+                         <br>
+                         <p>We implemented the Agile methodology by working as a team to properly divy up the work that needed to get done, in order to better complete it as a whole. 
+                              Additionally, we really benefited from our stand-up meetings, which allowed us to better collaborate as a team.
+                         </p>
+                    </div>
+
+                    <div id="reflection"> <!-- Project Reflection section -->
+                         <br>
+                         <h2>Project Reflection</h2>
+                         <br>
+                         <p>One of the major aspects I found interesting was the website cause it was a shift away from what we were working on up until then, 
+                              and allowed us to better express both aspects of our Data Analysis and Software Development degree.
+                         </p>
+                    </div>
+               </div>
+
+               <div id="footer"> <!-- Personal links section -->
+                    <br>
+                    <h2>For Your Consideration:</h2>
+                    <br>
+                    <p>If you've liked what you've seen of my work, you can view my resume by clicking  
+                         <a href="https://docs.google.com/document/d/15aV_IVGT6vbspYhsUo11gD2ZoZV2D7rI/edit?usp=sharing&ouid=113374165807974610915&rtpof=true&sd=true">here</a>.
+                    </p>
+                    <p>Additionally, you can find my LinkedIn page by clicking 
+                         <a href="https://www.linkedin.com/in/maple-johnson-2199a7275/">here</a>.
+                    </p>
+               </div>
+               
+          </div>
+     </body>
+</html>

@@ -1,0 +1,159 @@
+/*
+     Created By: Maple Johnson
+     SDEV280 Capstone
+*/
+
+/* Universally set margins and padding to 0 to start with */
+body, div, h1, h2, h3, h4, h5, header, html, li, p, ul {
+     margin: 0;
+     padding: 0;
+}
+
+/* Sets space background behind main content */
+body {
+     background-image: url("https://images-assets.nasa.gov/image/PIA22081/PIA22081~medium.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+/* Avoids code redundancy */
+h2 {
+     text-align: center;
+}
+
+/* Settings for the header */
+#header {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 25vh;
+
+     background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/60/Earth_from_Space.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     color: aliceblue;
+     font-size: x-large;
+}
+
+/* Overlay where the bulk of the content will be positioned */
+#wrapper {
+     width: 75%;
+     margin: 0 auto;
+     
+     background-image: linear-gradient(green, aqua);
+     border-radius: 20px;
+}
+
+/* Settings for the Project Overview */
+#overview {
+     min-height: 15vh;
+     border-style: solid;
+     border-color: black;
+     padding: 1em;
+}
+
+
+/* Settings for the Project Implementation */
+#implementation {
+     border-style: solid;
+     border-color: black;
+     justify-content: center;
+}
+
+#implementation_text {
+     min-height: 25vh;
+     width: 25vw;
+     padding: 1em;
+     display: inline-block;
+     position: relative;
+     text-align: center;
+}
+
+#implement_image {
+     min-height: 25vh;
+     min-width: 25vh;
+     width: 25vw;
+     display: inline-block;
+     padding: 1em;
+     position: relative;
+}
+
+#implement_image img {
+     display: block;
+     width: 100%;
+}
+
+/* Settings to set up the row of links */
+#link_bar {
+     border-style: solid;
+     border-color: black;
+     min-height: 6vh;
+
+}
+
+#link_bar ul {
+     list-style: none;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: .5em;
+}
+
+#link_bar ul li {
+     display: inline-block;
+     border-radius: 5px;
+     margin: 0em .5em;
+     background-color: rgb(255, 115, 0);
+}
+
+#link_bar ul li a {
+     display: inline-block;
+     padding: 1em 1.5em;
+     color: black;
+}
+
+#link_bar ul li a:hover {
+     background-color: rgb(177, 18, 177);
+     color: black;
+     border: 10px;
+     border-radius: 5px;
+}
+
+/* Settings for the Video Documentation */
+#video_doc {
+     border-style: solid;
+     border-color: black;
+     min-height: 50vh;
+     justify-content: center;
+}
+
+/* Settings for Project Obstacles, Project Improvement, Agile Mindset and Project Reflection */
+#parent_combo {
+     border-style: solid;
+     border-color: black;
+     min-height: 50vh;
+}
+
+#obstacles {
+     text-align: center;
+}
+
+#improvement {
+     text-align: center;
+}
+
+#agile {
+     text-align: center;
+}
+
+#reflection {
+     text-align: center;
+}
+
+/* Settings for personal links including LinkedIn and my resume */
+#footer {
+     border-style: solid;
+     border-color: black;
+     min-height: 15vh;
+     text-align: center;
+}
